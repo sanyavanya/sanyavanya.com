@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;  
+}
+
+.cv-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+}
+
+.cv {
+    width: 840px;
+    /*height: 1000px;*/
+    background-color: white;
+    color: black;
+    padding: 2em;
+}
+
+.title {
+    border-bottom: 2px solid #95969A;
+    padding-bottom: .5em;
+}
+
+.title__first-name {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: Raleway, Helvetica, Arial;
+}
+
+.title__last-name {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -.2em;
+    font-family: Raleway, Helvetica, Arial;
+}
+
+.title__role {
+    font-size: 1.2em;
+    margin-top: -.5em;
+    font-family: Raleway, Helvetica, Arial;
+}
+
+.title__share {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.share-icon {  
+  margin: 1rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 0;
+  opacity: 0.65;
+  transition: opacity 70ms;
+}
+
+.share-icon:hover { 
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 100ms;
+} 
+
+.inline-icon {
+    width: 1em;
+    margin-right: .3rem;
+    position: relative;
+    top: .1em;
+}
+
+
+.inline-link {
+    color: black;
+    transition: color 75ms;
+}
+
+.inline-link:hover {
+    color: #EC7357;
+    transition: color 150ms;
+}
+
+
+.contact--with-margin {
+    margin-left: 1.3rem;
+}
+
+
+.info__title_1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: -.5em;
+    font-family: Raleway, Helvetica, Arial;
+    font-weight: 600;
+}
+
+.info__title_2 {
+    font-size: 1.1em;
+    margin-bottom: -.5em;
+    font-family: Raleway, Helvetica, Arial;
+    font-weight: 500;
+}
+
+.info__title_3 {
+    font-size: .8em;
+    font-weight: normal;
+    margin-bottom: -.5rem;
+    font-family: Raleway, Helvetica, Arial;
+    margin-left: .5rem;
+}
+
+.info__paragraph {
+    font-family: Montserrat, Helvetica, Arial;
+}
+
+.info__paragraph--justify {
+    text-align: justify;
+}
+
+.info__paragraph--with-padding {
+    padding-left: 1.3rem;
+}
+
+.info__ul {
+    font-family: Montserrat, Helvetica, Arial;
+    list-style: none;
+    padding-inline-start: 1.3rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.info-left {
+    border-right: 2px solid #95969A;
+    padding-right: 1em;
+}
+
+.info-right {
+    padding-left: 1em;
+    padding-right: 1em;
+}
