@@ -3,10 +3,11 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;  
+  background-color: #848484;  
 }
 
 .cv-container {
+    margin: 2rem;
     width: 100%;
     display: flex;
     justify-content: center;
