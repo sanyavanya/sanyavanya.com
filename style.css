@@ -17,14 +17,14 @@ body {
 
 .cv {
     width: 840px;
-    /*height: 1000px;*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     background-color: white;
     color: black;
     padding: 2em;
 }
 
 .title {
-    border-bottom: 2px solid #95969A;
+    border-bottom: 2px solid #959595;
     padding-bottom: .5em;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .info-left {
-    border-right: 2px solid #95969A;
+    border-right: 2px solid #959595;
     padding-right: 1em;
 }
 
