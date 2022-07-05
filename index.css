@@ -116,6 +116,7 @@ body {
 }
 
 .text-mono {
+  display: none;
   margin-left: 0.5rem;
   font-family: Roboto Mono;
   font-weight: 100;
@@ -149,6 +150,7 @@ h3 {
 }
 
 p {
+  padding-left: 1.4rem;
   font-family: Montserrat, Helvetica, Arial;
 }
 

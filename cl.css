@@ -52,7 +52,8 @@
   padding: 1.7rem 3rem 5rem;
 }
 
-.cl_p {
+p {
+  padding-left: 0;
   text-align: left;
 }
 
