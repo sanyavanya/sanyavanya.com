@@ -57,24 +57,24 @@ body {
 }
 
 .first-name {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   text-transform: uppercase;
   font-family: Raleway, Helvetica, Arial;
 }
 
 .last-name {
-  font-size: 4em;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: -0.2em;
-  margin-left: -0.067em;
+  margin-top: -0.8rem;
+  margin-left: -0.25rem;
   font-family: Raleway, Helvetica, Arial;
 }
 
 .role {
-  font-size: 1.2em;
-  margin-top: -0.5em;
-  margin-left: -0.06em;
+  font-size: 1.2rem;
+  margin-top: -0.6rem;
+  margin-left: -0.08rem;
   font-family: Raleway, Helvetica, Arial;
 }
 
@@ -90,7 +90,7 @@ body {
 .info {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-gap: 2em;
+  grid-gap: 2rem;
   padding: 1rem 2.5rem 1.5rem;
 }
 
@@ -99,9 +99,9 @@ body {
 }
 
 .icon-inline {
-  width: 1em;
+  width: 1rem;
   position: relative;
-  top: 0.1em;
+  top: 0.1rem;
 }
 
 .link-inline {
@@ -124,9 +124,9 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  margin-bottom: -0.5em;
+  margin-bottom: -0.5rem;
   font-family: Raleway, Helvetica, Arial;
   font-weight: 600;
   color: #6c969d;
@@ -134,19 +134,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
-  margin-bottom: -0.5em;
+  font-size: 1.2rem;
+  margin-bottom: -0.5rem;
   font-family: Raleway, Helvetica, Arial;
   font-weight: 500;
   color: #0e1116;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.75rem;
   font-family: Montserrat, Helvetica, Arial;
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
 }
 
 p {
@@ -176,4 +176,9 @@ ul {
 .li-contact {
   margin: 0.4rem 0;
   white-space: nowrap;
+}
+
+.li-contact__note {
+  margin-left: 1.3rem;
+  font-size: .75rem;
 }
