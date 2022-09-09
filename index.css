@@ -181,4 +181,5 @@ ul {
 .li-contact__note {
   margin-left: 1.3rem;
   font-size: .75rem;
+  display: none;
 }
