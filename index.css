@@ -3,9 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap");
 
 body {
+  --color-light: #ffffff;
+  --color-dark: #342e37;
+  --color-primary: #bb2649;
+
   margin: 0;
   padding: 0;
-  background-color: #342e37;
+  background-color: var(--color-dark);
   -webkit-print-color-adjust: exact;
 }
 
@@ -24,7 +28,7 @@ body {
 }
 
 .share-link {
-  color: #ffffff;
+  color: var(--color-light);
   font-size: 0.75rem;
   text-decoration: none;
   font-family: Raleway, Helvetica, Arial;
@@ -39,21 +43,21 @@ body {
 
 /* cv */
 .cv {
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   width: 1000px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-  background-color: #ffffff;
-  color: #342e37;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
 
 /* header */
 .header {
-  background-color: #6c969d;
+  background-color: var(--color-primary);
   padding: 1.8rem 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #342e37;
+  color: var(--color-dark);
 }
 
 .first-name {
@@ -94,6 +98,12 @@ body {
   padding: 1rem 2.5rem 1.5rem;
 }
 
+@media (max-width: 999px) {
+  .info {
+    display: block;
+  }
+}
+
 .info-block {
   margin-bottom: 1.5rem;
 }
@@ -111,12 +121,12 @@ body {
 }
 
 .link-inline:hover {
-  color: #ff6f59;
+  color: var(--color-primary);
   transition: color 150ms;
 }
 
 .text-mono {
-  display: none;
+  /* display: none; */
   margin-left: 0.5rem;
   font-family: Roboto Mono;
   font-weight: 100;
@@ -129,8 +139,15 @@ h1 {
   margin-bottom: -0.5rem;
   font-family: Raleway, Helvetica, Arial;
   font-weight: 600;
-  color: #6c969d;
+  color: var(--color-primary);
   white-space: nowrap;
+}
+
+@media (max-width: 999px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 4rem;
+  }
 }
 
 h2 {
@@ -138,7 +155,7 @@ h2 {
   margin-bottom: -0.5rem;
   font-family: Raleway, Helvetica, Arial;
   font-weight: 500;
-  color: #0e1116;
+  color: var(--color-dark);
 }
 
 h3 {
@@ -176,10 +193,4 @@ ul {
 .li-contact {
   margin: 0.4rem 0;
   white-space: nowrap;
-}
-
-.li-contact__note {
-  margin-left: 1.3rem;
-  font-size: .75rem;
-  display: none;
 }
