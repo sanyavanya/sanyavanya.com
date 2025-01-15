@@ -4,12 +4,15 @@
 
 body {
   --color-light: #ffffff;
-  --color-dark: #342e37;
-  --color-primary: #bb2649;
+  --color-dark: #4A3F35;
+  --color-primary: #EEDFCC;
+  --color-secondary: #A29FA0;
+  --color-tertiary: #62778C;
 
   margin: 0;
   padding: 0;
   background-color: var(--color-dark);
+  print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
 }
 
@@ -76,7 +79,7 @@ body {
 }
 
 .role {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: -0.6rem;
   margin-left: -0.08rem;
   font-family: Raleway, Helvetica, Arial;
@@ -105,7 +108,7 @@ body {
 }
 
 .info-block {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .icon-inline {
@@ -121,7 +124,7 @@ body {
 }
 
 .link-inline:hover {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   transition: color 150ms;
 }
 
@@ -136,10 +139,10 @@ body {
 h1 {
   font-size: 1.5rem;
   text-transform: uppercase;
-  margin-bottom: -0.5rem;
+  margin-block: 0;
   font-family: Raleway, Helvetica, Arial;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   white-space: nowrap;
 }
 
@@ -152,33 +155,41 @@ h1 {
 
 h2 {
   font-size: 1.2rem;
-  margin-bottom: -0.5rem;
+	padding-top: 0.5rem;
+	margin-block: 0;
+  /* margin-bottom: -0.5rem; */
   font-family: Raleway, Helvetica, Arial;
   font-weight: 500;
-  color: var(--color-dark);
+  color: var(--color-tertiary);
 }
 
 h3 {
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: -0.75rem;
+	margin-block: 0;
+	padding-top: 0.5rem;
+  /* margin-bottom: -0.75rem; */
   font-family: Montserrat, Helvetica, Arial;
   margin-left: 0.3rem;
 }
 
 p {
-  padding-left: 1.4rem;
+	margin-block: 0;
+	margin-inline: 0;
   font-family: Montserrat, Helvetica, Arial;
 }
 
 .p-objective {
+	padding-block: 0.5rem;
   padding-left: 1.4rem;
   text-align: justify;
 }
 
 ul {
+	padding-block: 0.25rem;
   font-family: Montserrat, Helvetica, Arial;
   padding-inline-start: 1.4rem;
+	margin-block: 0;
 }
 
 .ul-mono {
