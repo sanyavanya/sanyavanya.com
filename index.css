@@ -47,7 +47,7 @@ body {
 /* cv */
 .cv {
   margin: 0 auto 3rem;
-  width: 1000px;
+  max-width: 1000px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   background-color: var(--color-light);
   color: var(--color-dark);
