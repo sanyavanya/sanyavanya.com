@@ -179,9 +179,15 @@ p {
   font-family: Montserrat, Helvetica, Arial;
 }
 
-.p-objective {
+.p-pad {
 	padding-block: 0.5rem;
   padding-left: 1.4rem;
+  text-align: justify;
+}
+
+.p-minipad {
+	padding-block: 0.15rem;
+  padding-left: 0.3rem;
   text-align: justify;
 }
 
